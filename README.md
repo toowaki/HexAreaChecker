@@ -4,8 +4,8 @@ This file is the viewer of the Hex file. Main purpose is to check the address sp
 It supports Motorola S-record format (.s19, .mot) and Intel HEX format (.hex), and automatically determines the format when reading. 
 
 ## Supported formats
-  Motorola S-record format: Record Field=S0~S3, S5~S9 (S4 is not responding because it is Reserved)
-  Intel HEX format: Recode Type=00~05
+  Motorola S-record format: Record Field= S0-S3, S5-S9 (S4 is not responding because it is Reserved)
+  Intel HEX format: Recode Type=00-05
 
 HexAreaChecker also checks the data length and checksum, so it can be used for confirming the checksum after editing data. 
 
